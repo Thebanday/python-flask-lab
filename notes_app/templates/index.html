@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notes App</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 2rem;
+        }
+        input {
+            padding: 0.5rem;
+            width: 300px;
+        }
+        button {
+            padding: 0.5rem;
+            margin-left: 0.5rem;
+        }
+        ul {
+            margin-top: 1rem;
+        }
+        li {
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>📝 Notes</h1>
+    
+    <input id="noteInput" placeholder="Write a note..." />
+    <button onclick="addNote()">Add Note</button>
+
+    <ul id="notesList">
+        <!-- Notes will appear here -->
+    </ul>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

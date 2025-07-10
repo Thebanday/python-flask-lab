@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f2f6ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #fff;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.card h2 {
+    margin-bottom: 1.5rem;
+    color: #4a4a4a;
+}
+
+.card form input {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4d84e2;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #3464c3;
+}
+
+p {
+    margin-top: 1rem;
+}
+
+p a {
+    color: #4d84e2;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #4d84e2;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.navbar .btn.small {
+    padding: 8px 14px;
+    font-size: 0.9rem;
+    background-color: #fff;
+    color: #4d84e2;
+    border: 1px solid white;
+}
+
+.navbar .btn.small:hover {
+    background-color: #f2f2f2;
+}
+
+main {
+    padding: 2rem;
+}

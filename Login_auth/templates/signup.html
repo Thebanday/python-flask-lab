@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="/static/sytle .css" />
+</head>
+<body class="centered">
+    <div class="card">
+        <h2>Sign Up</h2>
+        <form action>
+            <input id="user" type="text" name="username" placeholder="Username" required required autocomplete="current-usernname"/>
+            <input id="email" type="email" name="email" placeholder="Email" required required autocomplete="current-email"/>
+            <input id="pass" type="password" name="password" placeholder="Password" required required autocomplete="current-password"/>
+            <button type="submit" class="btn">Sign Up</button>
+        </form>
+        <p>Already have an account? <a href="login">Login</a></p>
+        <div id="message" class="message-box"></div>
+    </div>
+    <script src="/static/signup.js"></script>
+</body>
+</html>

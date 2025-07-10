@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Signup</title>
+    <style>
+        body {
+            background-color: darkseagreen;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Signup</h2>
+
+    <!-- Add "onsubmit" to prevent default and call JS -->
+    <form id="signupForm">
+        <input id="email" type="email" placeholder="Email" required /><br><br>
+        <input id="username" type="text" placeholder="Username" required /><br><br>
+        <input id="password" type="password" placeholder="Password" required /><br><br>
+        <input id="cpassword" type="password" placeholder="Confirm Password" required /><br><br>
+        <!-- Use type="submit" for the button -->
+        <button type="submit" id="button">Sign Up</button>
+    </form>
+
+    <p id="see">Already have an account? <a href="login.html">Login</a></p>
+    <div id="msg"></div>
+
+    <script src="/static/signup.js"></script>
+</body>
+
+</html>
